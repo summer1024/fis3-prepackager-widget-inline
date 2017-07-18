@@ -1,0 +1,23 @@
+{
+  "name": "fis3-prepackager-widget-inline",
+  "version": "1.0.0",
+  "description": "fis3-smarty widget inline",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/summer1024/fis3-prepackager-widget-inline.git"
+  },
+  "keywords": [
+    "widget",
+    "inline"
+  ],
+  "author": "yangting",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/summer1024/fis3-prepackager-widget-inline/issues"
+  },
+  "homepage": "https://github.com/summer1024/fis3-prepackager-widget-inline#readme"
+}
