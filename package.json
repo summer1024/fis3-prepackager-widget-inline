@@ -1,6 +1,6 @@
 {
   "name": "fis3-prepackager-widget-inline",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "fis3-smarty widget inline",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/summer1024/fis3-prepackager-widget-inline.git"
+    "url": "https://github.com/summer1024/fis3-prepackager-widget-inline.git"
   },
   "keywords": [
     "widget",
