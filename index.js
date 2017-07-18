@@ -17,7 +17,6 @@ var ld
     , parsed;
 
 var exports = module.exports = function(ret, conf, settings, opt) {
-    console.log('hhhhhhhh');
     ld = settings.left_delimiter || fis.config.get('settings.smarty.left_delimiter') || '{%';
     rd = settings.right_delimiter || fis.config.get('settings.smarty.right_delimiter') || '%}';
     
@@ -159,7 +158,7 @@ function embedded(file) {
         if(typeof content === 'string'){
             fis.log.debug('widget_inline start');
             //expand language ability
-            content = content.replace(map.reg, function(all, type, deps, a, value){
+            content = content.replace(map.reg, function(all, type, deps, value){
                 var ret = '', info;
                 try {
                     switch(type){
