@@ -159,7 +159,7 @@ function embedded(file) {
         if(typeof content === 'string'){
             fis.log.debug('widget_inline start');
             //expand language ability
-            content = content.replace(map.reg, function(all, type, value){
+            content = content.replace(map.reg, function(all, type, deps, a, value){
                 var ret = '', info;
                 try {
                     switch(type){

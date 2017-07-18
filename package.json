@@ -1,6 +1,6 @@
 {
-  "name": "fis3-prepackager-widget-inline",
-  "version": "1.0.3",
+  "name": "fis3-prepackager-widget-inline-new",
+  "version": "1.0.4",
   "description": "fis3-smarty widget inline",
   "main": "index.js",
   "scripts": {
